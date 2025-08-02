@@ -1,0 +1,117 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+// custom path to image and color
+  "logo": {
+    "source": "~/.config/fastfetch/images/matrixblackred.jpg",
+    "color": {"1": "red"},
+    "height": 20
+  },
+  "display": {
+    "color": {
+      "keys": "red",
+      "title": "red",
+      "values": "#D3D3D3"
+    },
+    "separator": ":"
+  }, 
+  "modules": [
+    {
+      "type": "title",
+      "key": "user",
+      "format": "{6}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m┌──────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "  OS",
+      "format": "{2}",
+      "keyColor": "red"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel",
+      "format": "{2}",
+      "keyColor": "red"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime",
+      "keyColor": "red",
+      "format": "{days}d {hours}h {minutes}m"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell",
+      "keyColor": "red",
+      "format": "{1}"
+    },
+    {
+      "type": "wm",
+      "key": "  WM",
+      "format": "{2}",
+      "keyColor": "red"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal",
+      "keyColor": "red"
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "  CPU",
+      "keyColor": "red"
+    },
+    {
+      "type": "gpu",
+      "format": "{1} {2}",
+      "key": "  GPU",
+      "keyColor": "red"
+    },
+    {
+      "type": "memory",
+      "key": "  Memory",
+      "keyColor": "red"
+    },
+    {
+      "type": "disk",
+      "key": "  Disk",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m└──────────────────────────────────────────┘\n"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m░▓████████▒░  ░▒▓██████▓▒░        ▒▓█▓▒        ▒▓█▓▒ ▒▓████████▓▒  ░▒▓███████▓▒░ "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒ ░▒▓█▓▒  ▒▓█▓▒░       ▒▓█▓▒        ▒▓█▓▒ ▒▓█▓▒        ░▒▓█▓▒░        "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒ ░▒▓█▓▒  ▒▓█▓▒░       ▒▓█▓▒        ▒▓█▓▒ ▒▓█▓▒        ░▒▓█▓▒░        "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒ ░▒▓█▓▒  ▒▓█▓▒░       ▒▓█▓▒        ▒▓█▓▒ ▒▓██████▓▒    ░▒▓██████▓▒░  "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒ ░▒▓█▓▒  ▒▓█▓▒░       ▒▓█▓▒        ▒▓█▓▒ ▒▓█▓▒               ░▒▓█▓▒░ "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒ ░▒▓█▓▒  ▒▓█▓▒░       ▒▓█▓▒        ▒▓█▓▒ ▒▓█▓▒               ░▒▓█▓▒░ "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m▒▓█▓▒  ▒▓█▓▒  ░▒▓██████▓▒░        ▒▓████████▓▒ ▒▓█▓▒ ▒▓████████▓▒ ░▒▓███████▓▒░  "
+    }
+  ]
+}
